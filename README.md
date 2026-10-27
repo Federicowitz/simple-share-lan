@@ -1,12 +1,12 @@
-# UltraShare LAN
+# SimpleShare LAN
 
-**UltraShare LAN** is a lightweight web application for fast peer-to-peer file transfers over a local network (LAN). It allows users to send and receive files directly between browsers without installing additional software.
+**SimpleShare LAN** is a lightweight web application for fast peer-to-peer file transfers over a local network (LAN). It allows users to send and receive files directly between browsers without installing additional software.
 
 ---
 
 ## Overview
 
-UltraShare LAN works by establishing a **peer-to-peer connection** between two devices on the same network. Users can transfer files in real time using configurable chunk sizes, providing a balance between speed and reliability.
+SimpleShare LAN works by establishing a **peer-to-peer connection** between two devices on the same network. Users can transfer files in real time using configurable chunk sizes, providing a balance between speed and reliability.
 
 ---
 
@@ -14,7 +14,7 @@ UltraShare LAN works by establishing a **peer-to-peer connection** between two d
 
 ### 1. Setting Up
 
-1. Open the UltraShare LAN webpage on one device.  
+1. Open the SimpleShare LAN webpage on one device.  
 2. The page will generate a **QR code** and a direct link for connecting other devices.  
 3. On the second device, simply scan the QR code or open the link.  
    - This will automatically open the webpage and establish a connection to the first device.  
@@ -37,7 +37,7 @@ UltraShare LAN works by establishing a **peer-to-peer connection** between two d
 
 ## Chunk Size Configuration
 
-UltraShare LAN allows you to select the **chunk size** for file transfers:
+SimpleShare LAN allows you to select the **chunk size** for file transfers:
 
 - **16 KB (Stable)** – safe for unreliable networks.
 - **256 KB** – medium performance.
@@ -54,7 +54,7 @@ UltraShare LAN allows you to select the **chunk size** for file transfers:
 
 ## Technical Details
 
-UltraShare LAN uses modern web technologies to provide **efficient peer-to-peer file transfers** without external servers (except for initial signaling).
+SimpleShare LAN uses modern web technologies to provide **efficient peer-to-peer file transfers** without external servers (except for initial signaling).
 
 ### 1. Peer-to-Peer Communication
 
@@ -94,14 +94,14 @@ UltraShare LAN uses modern web technologies to provide **efficient peer-to-peer 
 
 ## Limitations
 
-- UltraShare LAN works reliably **only on a local network** unless a STUN/TURN server is configured for NAT traversal.
+- SimpleShare LAN works reliably **only on a local network** unless a STUN/TURN server is configured for NAT traversal.
 - Peer-to-peer connections require both devices to be reachable in the same network segment.
 
 ---
 
 ## Summary
 
-UltraShare LAN provides a **fast, browser-based, peer-to-peer file transfer solution**:
+SimpleShare LAN provides a **fast, browser-based, peer-to-peer file transfer solution**:
 
 - No installation required.
 - Supports multi-file transfers with progress tracking.
@@ -112,7 +112,7 @@ UltraShare LAN provides a **fast, browser-based, peer-to-peer file transfer solu
 
 ## Example Workflow
 
-1. Host opens UltraShare LAN → QR code or link is generated.
+1. Host opens SimpleShare LAN → QR code or link is generated.
 2. Guest scans QR code or opens the link → connection is established.
 3. Files are dragged onto the upload area → sent in chunks.
 4. Receiver saves files automatically → progress and speed are displayed.
@@ -121,6 +121,6 @@ UltraShare LAN provides a **fast, browser-based, peer-to-peer file transfer solu
 
 ## Creator
 
-- UltraShare LAN was created by **Federicowitz**.
+- SimpleShare LAN was created by **Federicowitz**.
 - Open source and free to use under the MIT License.
 
